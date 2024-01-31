@@ -1,3 +1,5 @@
+# Toxicity Classifier
+
 ## Classifiers
 
 The following classifiers will be found within the files below
