@@ -2,35 +2,35 @@
 
 The following classifiers will be found within the files below
 
-##### Model 0: Naive Bayes
+#### Model 0: Naive Bayes
 
 Default Scikit-Learn implementation of GaussianNB. Initial theta = default
 
-##### Model 1: Logistic Regression; custom
+#### Model 1: Logistic Regression; custom
 
 Custom-built Python implementation which uses batch gradient descent algorithm described in lectures to update weights. Max epochs = 100, Initial weights vector = [0.1 for all thetas 1-n], Bias = 0.0, Learning rate = 0.001
 
-##### Model 2: Logistic Regression; default
+#### Model 2: Logistic Regression; default
 
 Default Scikit-Learn implementation LogisticRegression. Max epochs = 300, Initial weights = default, Bias = default
 
-##### Model 3: Logistic Regression; SGD
+#### Model 3: Logistic Regression; SGD
 
 Uses Scikit-Learn implementation of SGDClassifier with “log-loss” penalty. Performs Logistic Regression using a stochastic gradient descent algorithm to update weights. Learning rate is constant. Max epochs = 300, Learning rate type = constant, Learning rate = 0.01
 
-##### Model 3.1: Logistic Regression; SGD with variable learning rate
+#### Model 3.1: Logistic Regression; SGD with variable learning rate
 
 Uses Scikit-Learn implementation of SGDClassifier with “log-loss” penalty. Performs Logistic Regression using a stochastic gradient descent algorithm to update weights. Learning rate is optimised according to an internal heuristic. Max epochs = 300, Learning rate type = optimal
 
-##### Model 3.2: Logistic Regression; SGD with fast learning rate
+#### Model 3.2: Logistic Regression; SGD with fast learning rate
 
 Uses Scikit-Learn implementation of SGDClassifier with “log-loss” penalty. Performs Logistic Regression using a stochastic gradient descent algorithm to update weights. Learning rate is constant. Max epochs = 300, Learning rate type = constant, Learning rate = 0.1
 
-##### Model 4: K-Means
+#### Model 4: K-Means
 
 Uses Scikit-Lean implementation of KMeans Num. Clusters = 6
 
-##### Model 5: Ensemble
+#### Model 5: Ensemble
 
 Majority Vote algorithm; collects results from 3 classifiers, then returns True if at least 2 classifiers return True. Else, returns False. Classifiers = [0, 2, 3]
 
