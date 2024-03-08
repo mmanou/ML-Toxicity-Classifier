@@ -51,7 +51,8 @@ Generates and runs initial tests on all sklearn-based classifiers used in the re
 Generates and runs full test suite, including semi-supervised learning, on all sklearn-based classifiers used in the report
 
 `classifier_custom_logistic_regression.py`
-Built-from-scratch logistic regression using batch gradient descent (Classifier 1 in the report)
+Built-from-scratch logistic regression using batch gradient descent (Classifier Model 1).  
+**Note:** This was written as a learning exercise/challenge. The code behaves correctly, but relies heavily on Python loops and is therefore not intended for large datasets.
 
 `ablation.py`
 Trains classifiers 0, 2 and 3 to perform single-pass ablation;
